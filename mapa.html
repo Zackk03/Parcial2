@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_470bcff000f242ddb0092c9bddefcb97 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_470bcff000f242ddb0092c9bddefcb97" ></div>
+        
+</body>
+<script>    
+    
+            var map_470bcff000f242ddb0092c9bddefcb97 = L.map(
+                "map_470bcff000f242ddb0092c9bddefcb97",
+                {
+                    center: [18.669175, -71.2515167],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_39765d97b4f642919626b7d91cde8275 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_470bcff000f242ddb0092c9bddefcb97);
+        
+    
+            var marker_19bb48795d9d49758a10d30eb8e0cfac = L.marker(
+                [18.47855875, -69.86804418274806],
+                {}
+            ).addTo(map_470bcff000f242ddb0092c9bddefcb97);
+        
+    
+            var icon_50fc7be901fc40199837b6d62089957e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_19bb48795d9d49758a10d30eb8e0cfac.setIcon(icon_50fc7be901fc40199837b6d62089957e);
+        
+    
+        var popup_914b79f5c7b547f69335aee9c1bc267f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d1b60c4b81d471082b5a95f39ed0c29 = $(`<div id="html_5d1b60c4b81d471082b5a95f39ed0c29" style="width: 100.0%; height: 100.0%;"><i>Thomas Rodriguez Linares</i></div>`)[0];
+            popup_914b79f5c7b547f69335aee9c1bc267f.setContent(html_5d1b60c4b81d471082b5a95f39ed0c29);
+        
+
+        marker_19bb48795d9d49758a10d30eb8e0cfac.bindPopup(popup_914b79f5c7b547f69335aee9c1bc267f)
+        ;
+
+        
+    
+    
+            var marker_65b94d97ddb64381b0523356ee4eb9e2 = L.marker(
+                [18.5200904, -70.2076771],
+                {}
+            ).addTo(map_470bcff000f242ddb0092c9bddefcb97);
+        
+    
+            var icon_1fd376bb0138491cbad0fa6ca19ece8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_65b94d97ddb64381b0523356ee4eb9e2.setIcon(icon_1fd376bb0138491cbad0fa6ca19ece8c);
+        
+    
+        var popup_28e4ac00a4e44fdfb14338d991bc1ab2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45cf2aaba307401daef2e07c86a0822e = $(`<div id="html_45cf2aaba307401daef2e07c86a0822e" style="width: 100.0%; height: 100.0%;"><i>Virgina Pymes</i></div>`)[0];
+            popup_28e4ac00a4e44fdfb14338d991bc1ab2.setContent(html_45cf2aaba307401daef2e07c86a0822e);
+        
+
+        marker_65b94d97ddb64381b0523356ee4eb9e2.bindPopup(popup_28e4ac00a4e44fdfb14338d991bc1ab2)
+        ;
+
+        
+    
+</script>
